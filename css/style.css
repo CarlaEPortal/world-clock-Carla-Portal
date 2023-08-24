@@ -1,11 +1,15 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/498/original/6.png?1692904922);
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aliceblue;
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 36px;
 }
 
@@ -21,19 +25,33 @@ select {
   padding: 10px;
   font-size: 18px;
 }
+
+a {
+  color: #90f6d7;
+}
 .container {
-  max-width: 600px;
-  margin: 60px auto;
-  background-color: pink;
+  max-width: 500px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
+  opacity: 0.8;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #62929a;
+  border-radius: 20px;
 }
 
 .city {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed #62929a;
   padding: 30px 0;
 }
 
@@ -46,7 +64,7 @@ select {
 }
 
 .time {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -58,7 +76,6 @@ select {
 
 footer {
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #62929a;
   text-align: center;
-  margin-top: 40px;
 }
